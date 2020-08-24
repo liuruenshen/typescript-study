@@ -1,0 +1,19 @@
+{
+  "env": {
+    "browser": true,
+    "es6": true,
+    "node": true
+  },
+  "extends": [
+    "standard",
+    "ikala"
+  ],
+  "globals": {
+    "Atomics": "readonly",
+    "SharedArrayBuffer": "readonly"
+  },
+  "rules": {
+    "ident": "off",
+    "@typescript-eslint/indent": ["error", 2]
+  }
+}
